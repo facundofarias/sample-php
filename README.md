@@ -55,5 +55,3 @@ When you no longer need this sample application running live, you can delete it 
 4. In the **Settings** tab, click **Destroy**.
 
 **Note: If you do not delete your app, charges for using DigitalOcean services will continue to accrue.**
-
-Test
