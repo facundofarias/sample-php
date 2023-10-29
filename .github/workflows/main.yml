@@ -1,0 +1,16 @@
+name: Deploy my website in DeployBot
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    # Put steps here to build your site, deploy it to a service, etc.
+    - name: Trigger deployment in DeployBot
+      uses: facundofarias/deploybot-action@main
+      env:
+        # All these values should be set as encrypted secrets in your repository settings
+        DEPLOYBOT_SUBDOMAIN: ${{ secrets.DEPLOYBOT_SUBDOMAIN }}
+        DEPLOYBOT_API_TOKEN: ${{ secrets.DEPLOYBOT_API_TOKEN }}
+        DEPLOYBOT_ENVIRONMENT_ID: ${{ secrets.DEPLOYBOT_ENVIRONMENT_ID }}
