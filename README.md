@@ -50,6 +50,8 @@ You can learn more about the App Platform and how to manage and update your appl
 ## Deleting the App
 
 When you no longer need this sample application running live, you can delete it by following these steps:
+
+SAMPLE
 1. Visit the Apps control panel at https://cloud.digitalocean.com/apps.
 
 3. Navigate to the sample app.
